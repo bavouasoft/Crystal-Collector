@@ -1,0 +1,27 @@
+.crystals {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.crystal {
+  border: 2px solid rgb(49, 0, 128);
+  height: 200px;
+  width: 200px;
+}
+
+#c0 {
+  background-image: url("../images/crystal.jpg");
+}
+
+#c1 {
+  background-image: url("../images/crystal1.jpg");
+}
+
+#c2 {
+  background-image: url("../images/crystal2.jpg");
+}
+
+#c3 {
+  background-image: url("../images/crystal4.jpg");
+}
