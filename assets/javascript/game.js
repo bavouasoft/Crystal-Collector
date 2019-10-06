@@ -18,7 +18,6 @@ function init_block() {
   $(".crystals").empty();
   for (let i = 0; i < 4; i++) {
     // we have i = 4 crystals boxes
-
     // each crystal need to have a random number between 1 - 12
     let random = Math.floor(Math.random() * 11) + 1;
     let crystal = $("<div>"); // creation of an empty div
@@ -43,18 +42,6 @@ function reset_block() {
     // let id = ids[i];
     let crystal = $("#c" + i); // #c0,....#c4
     $(crystal).attr("data-random", random); // modify content value of data random with random
-
-    // crystal.attr({
-    //   class: "crystal",
-    //   "data-random": random //stting value//our data attribute random number//inside lets put our random mentionned on top/let random = Math.floor(Math.random() * 12);
-    // });
-
-    // let crystal = $("<div>");
-    // crystal.attr({
-    //   class: "crystal",
-    //   "data-random": random //stting value//our data attribute random number//inside lets put our random mentionned on top/let random = Math.floor(Math.random() * 12);
-    // });
-    // $(".crystals").append(crystal); // crystal is the class
   }
 }
 
@@ -102,11 +89,3 @@ $(".crystal").on("click", function() {
 // increment the lost counter
 // if its  equal, we increment the win counter
 // The random result number shown at the start is between 19 - 120
-//
-//
-//
-//
-//
-//
-//
-//
