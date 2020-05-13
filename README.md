@@ -11,6 +11,8 @@ This application contains alerts and the logic has timeouts to allow the final s
 
 ### How to Play
 
+You are given a random number at the start of the game.
+
 ### Technologies Used
 
 HTML5 | CSS3 | JavaScript | jQuery
