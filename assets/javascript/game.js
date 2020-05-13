@@ -48,7 +48,7 @@ function reset_block() {
 init_block();
 $(".crystal").on("click", function () {
   //console.log($(this)); // when we click on any crystal(class'crystal'), we should console.log the one we clicked on (this)
-  let num = parseInt($(this).attr("data-random")); //to get the value of the attribute here
+  let num = parseInt($(this).attr("data-random")); // this is to get the value of the attribute here
   current_score = current_score + num;
   if (current_score > random_result) {
     alert("you have lost");
