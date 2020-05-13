@@ -26,7 +26,7 @@ function init_block() {
       class: "crystal",
       "data-random": random, //setting value//our data attribute random number//inside lets put our random mentionned on top/let random = Math.floor(Math.random() * 12);
     });
-    $(".crystals").append(crystal); // locates the elements of class crystal // insert is the class
+    $(".crystals").append(crystal); // locates the elements of class crystal // insert in the class
   }
 }
 
