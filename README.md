@@ -2,7 +2,7 @@
 
 A fun and jQuery Guessing Game
 
-This is a front-end application the uses HTML5, CSS, JavaScript and jQuery. This project highlights using jQuery to dynamically update the HTML page on the application with the jQuery library..
+This is a front-end application the uses HTML5, CSS, JavaScript and jQuery. This project highlights using jQuery to dynamically update the HTML page on the application with the jQuery library.
 
 ### Other Features
 
