@@ -24,7 +24,7 @@ function init_block() {
     crystal.attr({
       id: "c" + i, // assigns attribute to the newly created elt c0 C1 ....c3
       class: "crystal",
-      "data-random": random, //stting value//our data attribute random number//inside lets put our random mentionned on top/let random = Math.floor(Math.random() * 12);
+      "data-random": random, //setting value//our data attribute random number//inside lets put our random mentionned on top/let random = Math.floor(Math.random() * 12);
     });
     $(".crystals").append(crystal); // locates the elements of class crystal // insert is the class
   }
