@@ -24,9 +24,9 @@ function init_block() {
     crystal.attr({
       id: "c" + i, // assigns attribute to the newly created elt c0 C1 ....c3
       class: "crystal",
-      "data-random": random //stting value//our data attribute random number//inside lets put our random mentionned on top/let random = Math.floor(Math.random() * 12);
+      "data-random": random, //stting value//our data attribute random number//inside lets put our random mentionned on top/let random = Math.floor(Math.random() * 12);
     });
-    $(".crystals").append(crystal); // locates the elmts of class crystal // insert is the class
+    $(".crystals").append(crystal); // locates the elements of class crystal // insert is the class
   }
 }
 
@@ -46,7 +46,7 @@ function reset_block() {
 }
 
 init_block();
-$(".crystal").on("click", function() {
+$(".crystal").on("click", function () {
   //console.log($(this)); // when we click on any crystal(class'crystal'), we should console.log the one we clicked on (this)
   let num = parseInt($(this).attr("data-random")); //to get the value of the attribute
   current_score = current_score + num;
