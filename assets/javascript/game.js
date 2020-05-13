@@ -76,7 +76,7 @@ $(".crystal").on("click", function () {
 
 //console.log("hello world");
 
-// pseudo coding
+// pseudo coding here
 
 // game with 4 crystal and a random result
 // each crystal need to have a random number between 1 - 12
